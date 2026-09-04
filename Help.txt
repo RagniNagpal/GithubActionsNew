@@ -1,0 +1,9 @@
+
+npm init -y
+npm i express
+ npm install @types/express -D  -> production
+
+after dockerfile 
+docker run -it --rm -p 8080:8080 api
+docker build -t api .
+ docker run -it --rm -p 8081:8080 api
